@@ -1,6 +1,4 @@
 # Autoencoders as Cross-Modal Teachers
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/autoencoders-as-cross-modal-teachers-can/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=autoencoders-as-cross-modal-teachers-can)
-
 Created by [Runpei Dong](https://runpeidong.com), [Zekun Qi](https://github.com/qizekun), [Linfeng Zhang](https://scholar.google.com.hk/citations?user=AK9VF30AAAAJ&hl=en&oi=ao), [Junbo Zhang](https://scholar.google.com.hk/citations?user=rSP0pGQAAAAJ&hl=en), [Jianjian Sun](https://scholar.google.com.hk/citations?user=MVZrGkYAAAAJ&hl=en&oi=ao), [Zheng Ge](https://scholar.google.com.hk/citations?user=hJ-VrrIAAAAJ&hl=en&oi=ao), [Li Yi](https://ericyi.github.io/), [Kaisheng Ma](http://group.iiis.tsinghua.edu.cn/~maks/leader.html)
 
 [[arXiv]](https://arxiv.org/abs/2212.08320) [[Models]](https://drive.google.com/drive/folders/1hZUmqRvAg64abnkaI1HxctfQPTetWpaH?usp=share_link)
