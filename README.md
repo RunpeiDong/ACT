@@ -1,7 +1,7 @@
 # Autoencoders as Cross-Modal Teachers
 Created by [Runpei Dong](https://runpeidong.com), [Zekun Qi](https://github.com/qizekun), [Linfeng Zhang](https://scholar.google.com.hk/citations?user=AK9VF30AAAAJ&hl=en&oi=ao), [Junbo Zhang](https://scholar.google.com.hk/citations?user=rSP0pGQAAAAJ&hl=en), [Jianjian Sun](https://scholar.google.com.hk/citations?user=MVZrGkYAAAAJ&hl=en&oi=ao), [Zheng Ge](https://scholar.google.com.hk/citations?user=hJ-VrrIAAAAJ&hl=en&oi=ao), [Li Yi](https://ericyi.github.io/), [Kaisheng Ma](http://group.iiis.tsinghua.edu.cn/~maks/leader.html)
 
-[OpenReview](https://openreview.net/forum?id=8Oun8ZUVe8N) | [arXiv](https://arxiv.org/abs/2212.08320) | [Models](https://drive.google.com/drive/folders/1hZUmqRvAg64abnkaI1HxctfQPTetWpaH?usp=share_link) | [Contact](runpei.dong@outlook.com)
+[OpenReview](https://openreview.net/forum?id=8Oun8ZUVe8N) | [arXiv](https://arxiv.org/abs/2212.08320) | [Models](https://drive.google.com/drive/folders/1hZUmqRvAg64abnkaI1HxctfQPTetWpaH?usp=share_link)
 
 This repository contains the code release of the paper **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?** (ICLR 2023).
 
