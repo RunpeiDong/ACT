@@ -1,9 +1,10 @@
 # Autoencoders as Cross-Modal Teachers
+
 Created by [Runpei Dong](https://runpeidong.com), [Zekun Qi](https://github.com/qizekun), [Linfeng Zhang](https://scholar.google.com.hk/citations?user=AK9VF30AAAAJ&hl=en&oi=ao), [Junbo Zhang](https://scholar.google.com.hk/citations?user=rSP0pGQAAAAJ&hl=en), [Jianjian Sun](https://scholar.google.com.hk/citations?user=MVZrGkYAAAAJ&hl=en&oi=ao), [Zheng Ge](https://scholar.google.com.hk/citations?user=hJ-VrrIAAAAJ&hl=en&oi=ao), [Li Yi](https://ericyi.github.io/), [Kaisheng Ma](http://group.iiis.tsinghua.edu.cn/~maks/leader.html)
 
 [OpenReview](https://openreview.net/forum?id=8Oun8ZUVe8N) | [arXiv](https://arxiv.org/abs/2212.08320) | [Models](https://drive.google.com/drive/folders/1hZUmqRvAg64abnkaI1HxctfQPTetWpaH?usp=share_link)
 
-This repository contains the code release of the paper **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?** (ICLR 2023).
+This repository contains the code release of paper **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?** (ICLR 2023).
 
 ## ACT:clapper:
 
@@ -140,16 +141,17 @@ Many thanks to the following codes that help us a lot in building this codebase:
 
 ## Contact
 
-If you have any questions related to the code or the paper, feel free to email Runpei (`runpei.dong@outlook.com`). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
+If you have any questions related to the code or the paper, feel free to email Runpei (`runpei.dong@gmail.com`). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
 
 ## Citation
 
 If you find our work useful in your research, please consider citing:
 ```latex
-@article{dong2022act,
+@inproceedings{dong2023act,
   title={Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?},
-  author={Dong, Runpei and Qi, Zekun and Zhang, Linfeng and Zhang, Junbo and Sun, Jianjian and Ge, Zheng and Yi, Li and Ma, Kaisheng},
-  journal={arXiv preprint arXiv:2212.08320},
-  year={2022}
+  author={Runpei Dong and Zekun Qi and Linfeng Zhang and Junbo Zhang and Jianjian Sun and Zheng Ge and Li Yi and Kaisheng Ma},
+  booktitle={The Eleventh International Conference on Learning Representations (ICLR) },
+  year={2023},
+  url={https://openreview.net/forum?id=8Oun8ZUVe8N}
 }
 ```
