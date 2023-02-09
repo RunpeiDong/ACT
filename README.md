@@ -13,9 +13,13 @@ The success of deep learning heavily relies on large-scale data with comprehensi
 <div  align="center">    
  <img src="./figure/framework.png" width = "666"  align=center />
 </div>
+## News
 
+- 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
+- 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
 
 ## Environment
+
 This codebase was tested with the following environment configurations. It may work with other versions.
 - Ubuntu 18.04
 - CUDA 11.3
