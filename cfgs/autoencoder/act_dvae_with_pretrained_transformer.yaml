@@ -67,9 +67,9 @@ model:
   visual_embed_dim: 768
   visual_embed_pos: after_dgcnn1
   freeze_visual_embed: true
-  num_prompt_token: 0
+  num_prompt_token: 64
   # num_prompt_token: 132 # especifically for MLP-Mixer with patch size 16
-  use_deep_prompt: false
+  use_deep_prompt: true
   num_group: 64
   group_size: 32
   num_tokens: 8192
