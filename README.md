@@ -17,6 +17,7 @@ The success of deep learning heavily relies on large-scale data with comprehensi
 
 ## News
 
+- 🎉 Apr, 2023: [**ReCon**](https://arxiv.org/abs/2302.02318) accepted by ICML 2023
 - 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
 - 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
 
@@ -133,6 +134,7 @@ Reconstruction results of synthetic objects from ShapeNet test set. We show the 
 <div  align="center">    
  <img src="./figure/visualization.png" width = "666"  align=center />
 </div>
+We use [PointVisualizaiton](https://github.com/qizekun/PointVisualizaiton) repo to render beautiful pointcloud image.
 
 
 ## License
