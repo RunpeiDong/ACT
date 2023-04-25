@@ -130,11 +130,11 @@ python main.py --ckpts <path/to/pre-trained/model> --root path/to/data --learnin
 ```
 
 ## 6. Visualization
+We use [PointVisualizaiton](https://github.com/qizekun/PointVisualizaiton) repo to render beautiful pointcloud image.
 Reconstruction results of synthetic objects from ShapeNet test set. We show the comparison of our ACT autoencoder and Point-BERT dVAE model:
 <div  align="center">    
  <img src="./figure/visualization.png" width = "666"  align=center />
 </div>
-We use [PointVisualizaiton](https://github.com/qizekun/PointVisualizaiton) repo to render beautiful pointcloud image.
 
 
 ## License
