@@ -6,6 +6,12 @@ Created by [Runpei Dong](https://runpeidong.com), [Zekun Qi](https://github.com/
 
 This repository contains the code release of paper **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?** (ICLR 2023).
 
+## News
+
+- 🎉 Apr, 2023: [**ReCon**](https://arxiv.org/abs/2302.02318) accepted by ICML 2023, check out the [code](https://github.com/qizekun/ReCon)
+- 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
+- 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
+
 ## ACT:clapper:
 
 The success of deep learning heavily relies on large-scale data with comprehensive labels, which is more expensive and time-consuming to fetch in 3D compared to 2D images or natural languages. This promotes the potential of utilizing models pretrained with data more than 3D as teachers for cross-modal knowledge transferring. In this paper, we revisit masked modeling in a unified fashion of knowledge distillation, and we show that foundational Transformers pretrained with 2D images or natural languages can help self-supervised 3D representation learning through training **A**utoencoders as **C**ross-Modal **T**eachers (**ACT**:clapper:). The pretrained Transformers are transferred as cross-modal 3D teachers using discrete variational autoencoding self-supervision, during which the Transformers are frozen with prompt tuning for better knowledge inheritance. The latent features encoded by the 3D teachers are used as the target of masked point modeling, wherein the dark knowledge is distilled to the 3D Transformer students as foundational geometry understanding. Our ACT pretrained 3D learner achieves state-of-the-art generalization capacity across various downstream benchmarks, e.g., 88.21% overall accuracy on ScanObjectNN.
@@ -14,12 +20,6 @@ The success of deep learning heavily relies on large-scale data with comprehensi
  <img src="./figure/framework.png" width = "666"  align=center />
 </div>
 
-
-## News
-
-- 🎉 Apr, 2023: [**ReCon**](https://arxiv.org/abs/2302.02318) accepted by ICML 2023
-- 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
-- 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
 
 ## Environment
 
@@ -146,6 +146,7 @@ Many thanks to the following codes that help us a lot in building this codebase:
 * [Point-MAE](https://github.com/Pang-Yatian/Point-MAE)
 * [VPT](https://github.com/KMnP/vpt)
 * [Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
+* [PointVisualizaiton](https://github.com/qizekun/PointVisualizaiton)
 
 ## Contact
 
@@ -153,7 +154,7 @@ If you have any questions related to the code or the paper, feel free to email R
 
 ## Citation
 
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing ACT:
 ```latex
 @inproceedings{dong2023act,
   title={Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?},
@@ -161,5 +162,14 @@ If you find our work useful in your research, please consider citing:
   booktitle={The Eleventh International Conference on Learning Representations (ICLR) },
   year={2023},
   url={https://openreview.net/forum?id=8Oun8ZUVe8N}
+}
+```
+and closely related work ReCon:
+```latex
+@inproceedings{qi2023recon,
+  title={Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining},
+  author={Qi, Zekun and Dong, Runpei and Fan, Guofan and Ge, Zheng and Zhang, Xiangyu and Ma, Kaisheng and Yi, Li},
+  booktitle={International Conference on Machine Learning (ICML) },
+  year={2023}
 }
 ```
