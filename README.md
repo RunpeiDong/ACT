@@ -8,6 +8,7 @@ This repository contains the code release of paper **Autoencoders as Cross-Modal
 
 ## News
 
+- 💥 Mar, 2024: Check out our latest work [**ShapeLLM**](https://qizekun.github.io/shapellm/), which achieves **95.25%** fine-tuned accuracy and **65.4** zero-shot accuracy on ScanObjectNN
 - 🎉 Apr, 2023: [**ReCon**](https://arxiv.org/abs/2302.02318) accepted by ICML 2023, check out the [code](https://github.com/qizekun/ReCon)
 - 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
 - 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
@@ -155,7 +156,7 @@ If you have any questions related to the code or the paper, feel free to email R
 ## Citation
 
 If you find our work useful in your research, please consider citing ACT:
-```latex
+```bibtex
 @inproceedings{dong2023act,
   title={Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?},
   author={Runpei Dong and Zekun Qi and Linfeng Zhang and Junbo Zhang and Jianjian Sun and Zheng Ge and Li Yi and Kaisheng Ma},
@@ -164,12 +165,18 @@ If you find our work useful in your research, please consider citing ACT:
   url={https://openreview.net/forum?id=8Oun8ZUVe8N}
 }
 ```
-and closely related work ReCon:
-```latex
+and closely related work [ReCon](https://github.com/qizekun/ReCon) and [ShapeLLM](https://github.com/qizekun/ShapeLLM):
+```bibtex
 @inproceedings{qi2023recon,
   title={Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining},
   author={Qi, Zekun and Dong, Runpei and Fan, Guofan and Ge, Zheng and Zhang, Xiangyu and Ma, Kaisheng and Yi, Li},
   booktitle={International Conference on Machine Learning (ICML) },
   year={2023}
+}
+@article{qi2024shapellm,
+  author = {Qi, Zekun and Dong, Runpei and Zhang, Shaochen and Geng, Haoran and Han, Chunrui and Ge, Zheng and Wang, He and Yi, Li and Ma, Kaisheng},
+  title = {ShapeLLM: Universal 3D Object Understanding for Embodied Interaction},
+  journal = {arXiv preprint arXiv:2402.17766},
+  year = {2024}
 }
 ```
