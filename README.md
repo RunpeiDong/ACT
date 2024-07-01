@@ -8,7 +8,8 @@ This repository contains the code release of paper **Autoencoders as Cross-Modal
 
 ## News
 
-- 💥 Mar, 2024: Check out our latest work [**ShapeLLM**](https://qizekun.github.io/shapellm/), which achieves **95.25%** fine-tuned accuracy and **65.4** zero-shot accuracy on ScanObjectNN
+- 🍾 July, 2024: [**ShapeLLM (ReCon++)**](https://qizekun.github.io/shapellm/) accepted by ECCV 2024, check out the [code](https://github.com/qizekun/ShapeLLM)
+- 💥 Mar, 2024: Check out our latest work [**ShapeLLM (ReCon++)**](https://qizekun.github.io/shapellm/), which achieves **95.25%** fine-tuned accuracy and **65.4** zero-shot accuracy on ScanObjectNN
 - 🎉 Apr, 2023: [**ReCon**](https://arxiv.org/abs/2302.02318) accepted by ICML 2023, check out the [code](https://github.com/qizekun/ReCon)
 - 📌 Feb, 2023: Check out our latest work [**ReCon**](https://arxiv.org/abs/2302.02318), which achieves **91.26%** accuracy on ScanObjectNN
 - 💥 Jan, 2023: [**ACT**](https://arxiv.org/abs/2212.08320) accepted by ICLR 2023
