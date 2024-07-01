@@ -174,10 +174,10 @@ and closely related work [ReCon](https://github.com/qizekun/ReCon) and [ShapeLLM
   booktitle={International Conference on Machine Learning (ICML) },
   year={2023}
 }
-@article{qi2024shapellm,
+@inproceedings{qi2024shapellm,
   author = {Qi, Zekun and Dong, Runpei and Zhang, Shaochen and Geng, Haoran and Han, Chunrui and Ge, Zheng and Wang, He and Yi, Li and Ma, Kaisheng},
   title = {ShapeLLM: Universal 3D Object Understanding for Embodied Interaction},
-  journal = {arXiv preprint arXiv:2402.17766},
+  booktitle={European Conference on Computer Vision (ECCV) },
   year = {2024}
 }
 ```
